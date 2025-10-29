@@ -17,10 +17,10 @@ public class Projects
     public string? OfficerDescription { get; set; }
     public DateTime? CreatedAt { get; set; }
     public string? CreatedBy { get; set; }
-    public int? Civilians { get; set; }            // مدنيون
-    public int? Soldiers { get; set; }             // جنود
-    public int? NonCommissionedOfficers { get; set; } // صف الضباط
-    public int? Officers { get; set; }             // ضباط
+    public int? Civilians { get; set; }           
+    public int? Soldiers { get; set; }             
+    public int? NonCommissionedOfficers { get; set; }
+    public int? Officers { get; set; }           
 
     public ProjectEstimation Estimation { get; set; }
     public ICollection<Signature> Signatures { get; set; }
